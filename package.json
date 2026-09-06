@@ -1,0 +1,37 @@
+{
+  "name": "@xaol/pyme-manager-core",
+  "version": "1.0.0",
+  "description": "Lightweight, deterministic TypeScript & SQL core engine for retail inventory, transactional POS, and barcode lookup.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "pyme",
+    "inventory",
+    "pos",
+    "retail",
+    "sat",
+    "mexico",
+    "sql",
+    "postgresql",
+    "sqlite",
+    "typescript"
+  ],
+  "author": "XAOL Software Studio (https://github.com/Xaol-Studio)",
+  "contributors": [
+    "Ian Miguel Delgado Huitrón <ianhuitron0687@gmail.com> (https://github.com/iamhuitron)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xaol-Studio/pyme-manager-core.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
